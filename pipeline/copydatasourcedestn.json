@@ -117,19 +117,6 @@
 						}
 					]
 				}
-			},
-			{
-				"name": "Set variable1",
-				"type": "SetVariable",
-				"dependsOn": [
-					{
-						"activity": "ForEachfileinfolder",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": []
 			}
 		],
 		"annotations": [],
